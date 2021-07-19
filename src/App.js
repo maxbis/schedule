@@ -1,6 +1,9 @@
-import './App.css'
-import * as myConst from "./constants.js"
-import ScheduleItem from "./components/ScheduleItem.js"
+import React, { useState } from 'react';
+import './App.css';
+import * as myConst from "./constants.js";
+import ScheduleItem from "./components/ScheduleItem.js";
+import KlasSelector from "./components/KlasSelector.js";
+// import Selector from "./components/Selector.js"
 
 
 
@@ -17,11 +20,18 @@ const TimeTable = () => {
   );
 }
 
-function App() {
-  return (
 
+function App() {
+  const [myKlas, setMyKlas] = useState("1A");
+  return (
     <div className="App">
       <div className="table-container">
+        <div className="flex-table">
+          <div class="flex-row head1">maandag 20 aug</div>
+          <div class="flex-row head2"><KlasSelector /></div>
+        </div>
+
+        <br />
         <TimeTable />
       </div>
     </div>

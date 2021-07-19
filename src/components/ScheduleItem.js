@@ -10,7 +10,7 @@ function time2Num(stringTime) {
   
     var line=0;
   
-    console.log(thisTime,klas);
+    //console.log(thisTime,klas);
   
     var x = scheduleList.find(el => {return (
       time2Num(el.begintijd) <= time2Num(thisTime) &&
@@ -20,7 +20,7 @@ function time2Num(stringTime) {
   
     if ( x ) {
       line =  (time2Num(thisTime)-time2Num(x.begintijd))/25;
-      console.log(line, x.vak);
+      console.log(thisTime, x.eindtijd);
   
       if ( line === 0 ) {
         return(

@@ -10,6 +10,18 @@
 
     { "id":1, "klas":"1C", "vak":"Nederlands", "docent":"DOCENT", "lokaal":"1.82",
         "datum":"2 aug", "begintijd":"13:00", "eindtijd":"14:00", 
-        "color":"#000000", "bgcolor":"#ffeecf"}
+        "color":"#000000", "bgcolor":"#ffeecf"},
+
+    { "id":1, "klas":"1A", "vak":"Workspace","docent":"BISSC", "lokaal":"1.84",
+        "datum":"2 aug", "begintijd":"09:00", "eindtijd":"12:00",
+        "color":"#000000", "bgcolor":"#fdffcf"},
+
+    { "id":1, "klas":"1A", "vak":"Pause", "docent":"", "lokaal":"",
+        "datum":"2 aug", "begintijd":"12:00", "eindtijd":"13:00",
+        "color":"#000000", "bgcolor":"#deffcf"},
+
+    { "id":1, "klas":"1A", "vak":"Engels", "docent":"DOCENT", "lokaal":"1.82",
+        "datum":"2 aug", "begintijd":"13:00", "eindtijd":"14:00", 
+        "color":"#000000", "bgcolor":"#f0f0f0"}
 
 ]
