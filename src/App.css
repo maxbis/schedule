@@ -17,12 +17,19 @@ body {background-color: rgb(224, 251, 255);}
 }
 
 .head1{
-    flex: 4;
+    flex: 1;
     color: blue;
 }
 .head2{
     flex: 1;
     text-align: right;
+}
+.head0{
+    flex: 5;
+    color: blue;
+    border-top: 2px solid rgb(95, 161, 248);
+    border-right: 2px solid rgb(95, 161, 248);
+
 }
 .row1 {
     color: green;
@@ -47,4 +54,11 @@ body {background-color: rgb(224, 251, 255);}
 }
 .acc{
     font-weight: bold;  
+}
+
+table td {
+    width: 180px;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
 }

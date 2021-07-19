@@ -40,3 +40,7 @@ export const Klassen =
     { "id":2, "klas": "1B" },
     { "id":3, "klas": "1C" }
 ];
+
+export const weekdag = [
+    "zondag", "maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag"
+];
